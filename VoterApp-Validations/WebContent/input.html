@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Voting Site</title>
+<script type="text/javascript" src"js/validation.js">
+</script>
+</head>
+<body>
+ <h1 style='color:red;text-align:center'>Voting Elgibilty Application</h1>
+ <center>
+ <form action="voterurl" onsubmit="return validate(this)">
+  Person Name : <input type="text" name="pname"/><span id="nameErr" style='color:red'></span><br>
+  Person Age  : <input type="text" name="page"/><span id="ageErr" style='color:red'></span><br>
+   
+   <!-- hidden box -->
+  <input type="hidden" value="no" name="vflag"/><br> 
+  <input type="submit" value="Check Voting Elgibility">
+  
+ </form>
+ </center>  
+</body>
+</html>

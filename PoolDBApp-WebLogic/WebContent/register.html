@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html style="color:red">
+<head>
+<meta charset="ISO-8859-1">
+<title>Registration Page</title>
+</head>
+<body>
+<h1 style="color:blue;text-align:center">Corona Patient Registration</h1>
+    <center><form action="registrationurl" method="POST">
+    <table>
+      <tr>
+        <td>Patient Name::</td>
+        <td><input type="text" name="patName"></td>
+      </tr>
+      <tr>
+        <td>Patient Address::</td>
+        <td><input type="text" name="patAddrs"></td>
+      </tr>
+      <tr>
+        <td>Patient Age::</td>
+        <td><input type="text" name="patAge"></td>
+      </tr>
+      <tr>
+        <td>Patient Gender::</td>
+        <td><input type="radio" name="gender" value="M">MALE&nbsp;&nbsp;</td>
+        <td><input type="radio" name="gender" value="F">Female&nbsp;&nbsp;</td>
+      </tr>
+      <tr>
+       <td>Patient Corona Stage::</td>
+       <td>
+         <select name="stage">
+          <option value="stage1" selected>STAGE1</option>
+          <option value="stage2">STAGE2</option>
+          <option value="stage3">STAGE3</option>
+          <option value="stage4">STAGE4</option>
+         </select>
+       </td>
+      </tr>
+      <tr>
+		  <td><input type="submit" value="Register Patient"/></td>
+		  <td><input type="reset" value="Cancel"/></td>
+      </tr>
+    </table>
+    </form></center>
+</body>
+</html>

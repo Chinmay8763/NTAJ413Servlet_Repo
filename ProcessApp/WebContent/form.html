@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Multiple Submit Button Testcase</title>
+</head>
+<body>
+  <h1><center>Use Submit Button or hyperlink to submit the request</center></h1>
+  <br><br>
+  <form action="processurl1" method="get">
+    Enter Value1:<input type="text" name="t1"/><br>
+    Enter Value2:<input type="text" name="t2"/><br>
+    <input type="submit" name="s1" value="add"/>
+    <input type="submit" name="s1" value="sub"/>
+    <input type="submit" name="s1" value="mul"/>
+    <input type="submit" name="s1" value="div"/>
+    <br>
+  </form>
+  <a href="processurl?s1=link1">System Date</a>&nbsp;&nbsp;&nbsp;
+  <a href="processurl?s1=link2">System Properties</a>
+</body>
+</html>

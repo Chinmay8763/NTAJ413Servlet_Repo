@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Registration Page</title>
+</head>
+<body>
+   <h1 style="color:red;text-align:center">Personal Details</h1>
+   <form action="formurl">
+    <table border="1" align="center">
+     <tr>
+      <td>Name</td>
+      <td><input type="text" name="tname" value=""/></td>
+     </tr>
+     <tr>
+      <td>Age</td>
+      <td><input type="password" name="tage" value=""></td>
+     </tr>
+     <tr>
+      <td>Gender</td>
+      <td>
+       <input type="radio" name="gender" value="M" checked="checked"/>Male
+       <input type="radio" name="gender" value="F"/>Female
+      </td>
+     </tr>
+     <tr>
+      <td>Address:</td>
+      <td>
+       <textarea name="taddress" rows="4" cols="20">
+       enter address
+       </textarea>
+      </td>
+     </tr>
+     <tr>
+      <td>Marital Status</td>
+      <td><input type="checkbox" name="ms" value="married"/>Married
+          <input type="checkbox" name="ms" value="Unmarried"/>UnMarried</td>
+     </tr>
+     <tr>
+      <td>Qualification</td>
+      <td>
+       <select name="qlfy">
+        <option value="B.Tech">Engg</option>
+        <option value="MBBS">Medical</option>
+        <option value="B.A">Arts</option>
+       </select>
+      </td>
+     </tr>
+     <tr>
+      <td>Courses:</td>
+      <td>
+       <select name="crs" size="3" multiple="multiple">
+        <option value="java">JAVA Pkg</option>
+        <option value=".net">NET Pkg</option>
+        <option value="testing">Testing Pkg</option>
+       </select>
+      </td>
+     </tr>
+     <tr>
+      <td>Hobies</td>
+      <td>
+       <input type="checkbox" name="hb" value="read" checked/>Reading
+       <input type="checkbox" name="hb" value="playinggames"/>Playing
+       <input type="checkbox" name="hb" value="roaming"/>Travelling
+      </td>
+     </tr>
+     <tr>
+      <td>Color:</td>
+      <td><input type="color" name="clr"></td>
+     </tr>
+     <tr>
+      <td colspan="2">
+       <input type="submit" value="Submit"/>
+       <input type="reset" value="Cancel"/>
+      </td>
+     </tr>
+    </table>
+   </form>
+</body>
+</html>
