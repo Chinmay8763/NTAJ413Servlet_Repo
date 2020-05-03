@@ -1,0 +1,22 @@
+CREATE TABLE "SCOTT"."SESSION_PERSON_COOKIE" 
+   (	"PID" NUMBER(10,0) NOT NULL ENABLE, 
+	"PNAME" VARCHAR2(15 BYTE), 
+	"PFNAME" VARCHAR2(15 BYTE), 
+	"GENDER" VARCHAR2(10 BYTE), 
+	"INCOME" FLOAT(126), 
+	"TAX" FLOAT(126), 
+	 CONSTRAINT "SESSION_PERSON_COOKIE_PK" PRIMARY KEY ("PID");
+	 
+	COL                DATATYPE                     NULL?
+	------              -----------------                  -----------
+	 PID	           NUMBER(10,0)	              No
+     PNAME	   VARCHAR2(15 BYTE)	      Yes
+     PFNAME   VARCHAR2(15 BYTE)	      Yes
+     GENDER	   VARCHAR2(10 BYTE)	      Yes
+     INCOME	   FLOAT	                              Yes
+     TAX	           FLOAT	                              Yes
+     
+     CREATE SEQUENCE  "SCOTT"."PID_SES_SEQ"  
+     MINVALUE 1 MAXVALUE 1000 
+     INCREMENT BY 1 
+     START WITH 1 CACHE 20 NOORDER  NOCYCLE ;
