@@ -5,7 +5,7 @@
     <welcome-file>input.html</welcome-file>
   </welcome-file-list>
   
-  <session-config>
+  <!-- <session-config>
      <session-timeout>4</session-timeout>
-  </session-config>
+  </session-config> -->
 </web-app>
